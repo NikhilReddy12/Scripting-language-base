@@ -1,0 +1,315 @@
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css" >
+.main{
+background-color:black;
+width:200px;
+padding-bottom:480px;
+margin-top:-13px;
+
+}
+.nam{
+border: 5px solid coral;
+background-color: coral;
+width:190px;
+padding-bottom:0px;
+}
+.profil{
+margin-top:25px;
+margin-bottom:-25px;
+margin-left:20px;
+width:30px;
+height:55px;
+}
+.userr p{
+margin-top:-20px;
+margin-left:60px;
+}
+.shea{
+
+
+}
+.he{
+margin-top:-630px;
+margin-left:199px;
+padding-bottom:50px;
+
+}
+.hea{
+ border: 5px solid coral;
+background-color: coral;
+
+}
+.menu{
+width:25px;
+height:25px;
+margin-bottom:-8px;
+margin-left:10px;
+}
+.bell{
+width:25px;
+height:25px;
+margin-left:20px;
+margin-right:20px;
+margin-bottom:-5px;
+}
+.per{
+width:25px;
+height:25px;
+margin-bottom:-5px;
+}
+.search{
+margin-left:800px;
+margin-bottom:10px;
+margin-top:10px;
+padding:5px;
+}
+.listne {
+  display: block;
+  position: absolute;
+  background-color: black;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+margin-top:25px;
+}
+.pb{
+color:white;
+background-color:black;
+border:none;
+width:200px;
+height:40px;
+
+}
+.list {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top:10px;
+  margin-left:1000px;
+}
+.list a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+ 
+ 
+}
+.list :hover {
+  background-color: #ddd;
+}
+
+  
+ .butn{ 
+  cursor: pointer;
+ 
+  border:none;
+  background-color:coral;
+}
+.show {
+  display: block;
+   }
+   .txt{
+   
+   }
+ .butn1{ 
+  cursor: pointer;
+ 
+  border:none;
+  background-color:coral;
+}
+.edit{
+background-color:green;
+padding:1px;
+}
+.imeg{
+width:150px;
+height;100px;
+margin-left:55px;
+}
+.edit1{
+margin-top:-150px;
+margin-left:250px;
+width:310px;
+
+}
+.edit2{
+    margin-top: -235px;
+    margin-left: 600px;
+width:400px;
+
+}
+.editp{
+width:300px;
+height:25px;
+padding-left:5px;
+margin-top:20px;
+border-radius: 2px;
+}
+
+</style>
+<body>
+
+
+<div class="main">
+<div class="nam">
+<p style="text-align:center;color:white;font-style:Italic">Vali</p>
+</div>
+<div >
+<img class="profil" style="" src="men.png">
+<div class="userr">
+<p style="color:white;"><b>John Doe</b></p>
+<p style="color:white;margin-top:-12px">Frontend Developer</p>
+</div>
+
+<div  class="listne"id="5myDropdown">
+<a href="#"><button  class="pb" id="button" onclick="setColor('button', '#a87c7c')";><img style="width:25px;height:20px;margin-left:-50px;" src="dash.png">DashBoard</button></a><br>
+   <a href="#"><button class="pb" id="button1" onclick="setColor('button1', '#a87c7c')";><img style="width:25px;height:20px;margin-left:-50px;" src="laptop.png">UI Elements</button></a><br>
+   <a href="#"><button class="pb" id="button2" onclick="setColor('button2', '#a87c7c')";><img style="width:25px;height:20px;margin-left:-78px;" src="chart.png">Charts</button></a><br>
+   <a href="#"><button class="pb" id="button3" onclick="setColor('button3', '#a87c7c')";><img style="width:25px;height:20px;margin-left:-78px;" src="form.jpg">Forms</button></a><br>
+   <a href="#"><button class="pb" id="button4" onclick="setColor('button4', '#a87c7c')";><img style="width:25px;height:20px;margin-left:-78px;" src="table.png">Tables</button></a><br>
+   <a href="#"><button class="pb" id="button5" onclick="setColor('button5', '#a87c7c')";><img style="width:25px;height:20px;margin-left:-78px;" src="page.jpg">Pages</button></a>
+    </div>
+</div>
+</div>
+<div class="he">
+<div class="hea">
+<input class="menu" type="image" src="menu.png" >
+<input class="search" type="text" placeholder="search">
+
+<button class="butn1" onclick="myFunction()" > <img style="width:15px;height:20px" src="bell.png" >
+</button>
+<div style="margin-left:900px;width:200px" class="list"id="mdown">
+<p style="text-align:center"> No Notifications</p>
+<p>-------------------------------------</p>
+<button style="margin-left:75px">clear</button>
+    </div>
+
+<button class="butn" onclick="my()"><img style="width:15px;height:20px" src="person.png">
+<i class="fa fa-caret-down"></i>
+</button>
+<div  class="list"id="myDropdown">
+<a href="C:\Users\PL0025\Desktop\DesignScreenshot\5thdashboard\dashboard.html">Home</a>
+    <a href="C:\Users\PL0025\Desktop\DesignScreenshot\1signin\1signin.html"><b>Logout</a>
+    </div>
+</div>
+<div class="edit">
+<p style="color:white;padding-left:25px;"><b>Edit Profile</b></p>
+</div>
+
+<img class="imeg" src="person1.png">
+<form action="/action_page.php">
+<div class="edit1">
+<input class="editp" type="text" placeholder="FirstName"><br>
+<input class="editp" type="text" placeholder="LastName"><br>
+<input class="editp" type="text" placeholder="DisplayName"><br>
+<input class="editp" type="text" placeholder="EmailId"><br><br>
+<input  type="checkbox" >Email Verified<br><br>
+<input type="submit" value="Save" class="">
+<input type="reset" value="Reset"class="">
+</div>
+<div class="edit2">
+<input style="width:50px;padding-left:5px;border-radius: 2px;"class="edqitp" type="text" placeholder="Age">
+
+<input class="edietp" type="radio" name="gender">Male
+<input class="edietp" type="radio"  name="gender">Female
+<p><b>Location</b></p>
+<select style="width:300px;height:25px;border-radius: 10px;" id="country1"> 
+<option >Select</option>
+<option value="IN">India</option>
+	<option value="AT">Austria</option>
+	<option value="BD">Bangladesh</option>
+	<option value="BE">Belgium</option>
+	<option value="BT">Bhutan</option>
+	<option value="BR">Brazil</option>
+	<option value="CA">Canada</option>
+	<option value="CN">China</option>
+	<option value="CO">Colombia</option>
+	<option value="DK">Denmark</option>
+	<option value="EG">Egypt</option>
+	<option value="FR">France</option>
+	<option value="DE">Germany</option>
+	<option value="HK">Hong Kong</option>
+    <option value="ID">Indonesia</option>
+	<option value="IR">Iran</option>
+	<option value="IE">Ireland</option>
+	<option value="IT">Italy</option>
+	<option value="JP">Japan</option>
+	<option value="KR">Korea</option>
+	<option value="KW">Kuwait</option>
+	<option value="MO">Macao</option>
+	<option value="MY">Malaysia</option>
+	<option value="MV">Maldives</option>
+    <option value="NZ">New Zealand</option>
+	<option value="PK">Pakistan</option>
+    <option value="PH">Philippines</option>
+	<option value="PT">Portugal</option>
+    <option value="SA">Saudi Arabia</option>
+    <option value="SG">Singapore</option>
+	<option value="ZA">South Africa</option>
+    <option value="ES">Spain</option>
+	<option value="LK">Sri Lanka</option>
+	<option value="CH">Switzerland</option>
+	<option value="GB">United Kingdom</option>
+	<option value="US">United States</option>                 
+</select>
+<p><b>Notes</b></p>
+<input type="textarea" style="width:300px;height:50px;border-radius: 2px;" placeholder="Tell me abut ur self" >
+</div>
+</form>
+</div>
+
+<script>
+function myFunction() {
+  document.getElementById("mdown").classList.toggle("show");
+ 
+}
+window.onclick = function(j) {
+  if (!j.target.matches('.butn1')) {
+  var myopdown = document.getElementById("mdown");
+    if (myopdown.classList.contains('show')) {
+      myopdown.classList.remove('show');
+    }
+  }
+} 
+
+function my(){
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+  
+
+ window.onclick = function(e) {
+  if (!e.target.matches('.butn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+} 
+var count=0;
+function setColor(btn, color){
+    
+    var property = document.getElementById(btn);
+    if (count == 0){
+        property.style.backgroundColor = "black"
+       count=1;        
+    }
+    else{
+        property.style.backgroundColor = "red"
+		//property.style.borderLeftColor = "green"
+        count=0;
+    }
+
+}
+
+</script>
+</body>
+</html>
