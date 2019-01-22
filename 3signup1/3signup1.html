@@ -1,0 +1,119 @@
+<html>
+<title>Form filling</title>
+<style class="text/css">
+.m{
+background-color:#5DBCD2;
+
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+   
+    padding-bottom: 65px;
+	margin-bottom:10px;
+	margin-top:-5px;
+	}
+	.header{
+	font-size:25px;
+	margin:25px;
+	}
+	.pic{
+	margin:-15px 0px -20px 31px;
+	padding-top:20px;
+	}
+	.pic1{
+  width:40px;
+  height:40px;
+  padding-top:10px;
+ 
+  }
+  
+  .name{
+width:400px;
+ height:40px;
+  margin:-20px 10px 10px 70px;
+ padding-left:15px;
+ }
+ .fom{
+  width:205px;
+ height:40px;
+ margin-left:27px;
+ padding-left:15px;
+ margin-bottom:15px;
+ margin-top:15px;
+  }
+  .gender{
+   width:442px;
+ height:40px;
+  margin:-10px 10px 10px 26px;
+ padding-left:15px;
+  }
+  .terms{
+  margin:10px 10px 5px 40px;
+  }
+	</style>
+<body>
+<script type="text/javascript" src="3signup.js"> </script>
+<form name="myform" method="post"  onsubmit="return validateform()" > 
+<div class="m">
+<h class="header">Form With Icons</h>
+<div class="pic">
+<img class="pic1" src="man1.png" alt="man"/>
+</div>
+<div >
+<input class="name" type="text" name="uname" placeholder="username" />
+</div>
+<div class="pic">
+<img class="pic1" src="key.png" alt=key"/>
+</div>
+<div >
+<input class="name" type="password" name="password" placeholder="Choose your Password" />
+</div>
+<div class="pic">
+<img class="pic1" src="key.png" alt="key"/>
+</div>
+<div >
+<input class="name" type="password" name="password1" placeholder="Confirm your Password" />
+</div>
+<div class="pic">
+<img class="pic1" src="mail.png" alt="mail"/>
+</div>
+<div >
+<input class="name" type="text"  name="email" placeholder="Email" />
+</div>
+
+
+<table>
+<tr>
+<td>
+<form >
+<input class="fom" type="text" name="fname" placeholder="First Name" />
+<input class="fom" type="text" name="lname" placeholder="Last Name" />
+</form>
+</td>
+</tr>
+<tr>
+<td>
+<select class="gender" name="gend">
+<option >Gender</option>
+<option  value="M">Male</option>
+<option  value="Fm">Female</option>
+<option  value="ot">Others</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><input  name="term" class="terms" type="checkbox"  value="terms" >I agree with terms and conditionds</td>
+</tr>
+<tr>
+<td><input  class="terms" type="checkbox"  value="terms" >I want to receive the news and offers</td>
+</tr>
+<tr>
+<td><input class="terms" type="submit"  value="Signup" style="width:80px;height:40px" ></td>
+</tr>
+
+<table>
+</div>
+</form>
+</body>
+</html>
